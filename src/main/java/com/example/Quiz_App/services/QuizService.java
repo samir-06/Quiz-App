@@ -44,7 +44,6 @@ public class QuizService {
         if (optionalSession.isEmpty() || optionalQuestion.isEmpty()) {
             throw new RuntimeException("Invalid session or question ID");
         }
-   gigi
         QuizSession session = optionalSession.get();
         Question question = optionalQuestion.get();
 
